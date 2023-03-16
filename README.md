@@ -1,3 +1,57 @@
+fibonacci adalah suatu deret bilangan yang mana tiap angkanya adalah hasil penjumlahan dari dua angka sebelumnya.
+
+Dan dua anggota pertama dari deret fibonacci selalu 0 dan 1.
+
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144,
+
+Deret Fibonacci adalah deret bilangan dimana setiap angka yang dihasilkan adalah 
+jumlah dari dua angka sebelumnya. Misalnya,
+ deret Fibonacci dimulai dengan 0, 1, dan 1, kemudian diikuti dengan 2, 3, 5, 8, 13, dan seterusnya.
+
+
+Fibonacci adalah sebuah deret bilangan yang mana setiap anggotanya adalah hasil penjumlahan dari 2 bilangan sebelumnya.
+
+Bilangan fibonacci selalu diawali oleh 2 angka, yaitu 0 dan 1.
+
+Dan mulai bilangan ke-3, barulah setiap anggota deret fibonacci dikalkulasikan berdasarkan penjumlahan dua angka sebelumnya.
+
+Sehingga nilai dari bilangan:
+
+Ke-3 adalah hasil dari 0 + 1 = 1
+Ke-4 adalah hasil dari 1 + 1 = 2
+Ke-5 adalah hasil dari 2 + 1 = 3
+Ke-6 adalah hasil dari 3 + 2 = 5
+Ke-7 adalah hasil dari 5 + 3 = 8
+dan seterusnya
+
+Mengambil 2 angka sebelumnya lalu menyimpannya pada 2 variabel (yaitu angka1 dan angka2).
+Membuat variabel baru dengan nama angkaSelanjutnya dengan nilai hasil penjumlahan dari angka1 dan angka2.
+Hasil penjumlahan tersebut kita masukkan ke dalam list agar bisa digunakan untuk menentukan angka selanjutnya lagi.
+
+
+jump
+Jump Search (pencarian lompat) adalah algoritma pencarian dengan masukan berupa data/list (array) yang sudah terurut, 
+dengan “melompati” beberapa elemen data sampai menemukan tepat sama dengan atau lebih dari elemen data yang dicari. 
+Banyak elemen data yang dilompati tetap (konstan). Jika pada lompatan tertentu, pencarian tiba pada elemen data yang bernilai lebih dari yang dicari, maka mundur sebanyak 1 lompatan, dan kemudian mencari data satu per satu dengan pencarian linier.
+
+Misalkan:
+
+data disimpan dalam array berukuran  yaitu ,
+elemen yang dicari adalah , dan
+banyak elemen yang dilompati adalah ,
+dengan 0 < m < n.
+
+Dalam hal ini, diasumsikan indeks awal array adalah 0 
+
+
+
+linier
+
+Linear Search merupakan sebuah teknik pencarian data dengan menelusuri semua data satu per satu. 
+Apabila ditemukan kecocokan data maka program akan mengembalikan output, jika tidak pencarian akan terus berlanjut hingga akhir dari array tersebut.
+
+
+
 # ASD
 POST TES 2
 
@@ -183,3 +237,4 @@ def tampilan():
                 exit()
 
 tampilan()
+
