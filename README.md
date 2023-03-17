@@ -1,3 +1,5 @@
+#fibonacci
+
 fibonacci adalah suatu deret bilangan yang mana tiap angkanya adalah hasil penjumlahan dari dua angka sebelumnya.
 
 Dan dua anggota pertama dari deret fibonacci selalu 0 dan 1.
@@ -29,7 +31,8 @@ Membuat variabel baru dengan nama angkaSelanjutnya dengan nilai hasil penjumlaha
 Hasil penjumlahan tersebut kita masukkan ke dalam list agar bisa digunakan untuk menentukan angka selanjutnya lagi.
 
 
-jump
+#jump
+
 Jump Search (pencarian lompat) adalah algoritma pencarian dengan masukan berupa data/list (array) yang sudah terurut, 
 dengan “melompati” beberapa elemen data sampai menemukan tepat sama dengan atau lebih dari elemen data yang dicari. 
 Banyak elemen data yang dilompati tetap (konstan). Jika pada lompatan tertentu, pencarian tiba pada elemen data yang bernilai lebih dari yang dicari, maka mundur sebanyak 1 lompatan, dan kemudian mencari data satu per satu dengan pencarian linier.
@@ -45,14 +48,13 @@ Dalam hal ini, diasumsikan indeks awal array adalah 0
 
 
 
-linier
+#linier
 
 Linear Search merupakan sebuah teknik pencarian data dengan menelusuri semua data satu per satu. 
 Apabila ditemukan kecocokan data maka program akan mengembalikan output, jika tidak pencarian akan terus berlanjut hingga akhir dari array tersebut.
 
 
-
-# ASD
+#codingan
 POST TES 2
 
 import math
